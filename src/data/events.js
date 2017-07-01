@@ -25,8 +25,9 @@ export default class Events {
     status,
     desc
   }) {
+    const url = new URL('https://elixir-phoenix.herokuapp.com');
+    // const url = new URL('https://phx-api.herokuapp.com');
     // const url = new URL('http://localhost:4000');
-    const url = new URL('https://phx-api.herokuapp.com');
 
     url.pathname = '/api/meetup_requests';
 
